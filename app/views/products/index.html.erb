@@ -9,9 +9,7 @@
     <img class="img-responsive" src=<%=asset_path product.featImage %>/>
     <p><%= product.description %></p>
     <h4><%= product.price %></h4>
-    <%= link_to 'Show', product, :class=>"btn btn-primary" %>
-    <-- <%= link_to 'Edit', edit_product_path(product) %>
-    <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <%= link_to 'Show', product, :class=>"btn btn-success" %>
   </div>
   <% end %>
 </div>
